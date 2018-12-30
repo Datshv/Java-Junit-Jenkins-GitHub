@@ -14,7 +14,7 @@ import calculadoraBasica.Division;
 import calculadoraBasica.Extraccion;
 import calculadoraBasica.Multiplicacion;
 
-public class PruebasUnitarias {
+public class PruebasUnitariasTest {
 	
 	@BeforeClass
 	public static void antesDeTodasLasPruebas() {
