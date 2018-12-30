@@ -43,7 +43,7 @@ public class PruebasUnitariasTest {
 	public void extraccionTest() {
 		System.out.println("prueba extraccion");
 	   Extraccion extraccion = new Extraccion();
-	   assertEquals(0,extraccion.resta(2, 2));
+	   assertEquals(1,extraccion.resta(2, 2));
 	}
 	
 	/**
