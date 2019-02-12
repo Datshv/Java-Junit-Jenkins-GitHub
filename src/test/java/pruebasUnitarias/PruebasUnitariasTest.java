@@ -39,6 +39,8 @@ public class PruebasUnitariasTest {
 	   assertEquals(3,adicion.suma(1, 2));
 	}
 	
+	
+	
 	@Test
 	public void extraccionTest() {
 		System.out.println("prueba extraccion");
