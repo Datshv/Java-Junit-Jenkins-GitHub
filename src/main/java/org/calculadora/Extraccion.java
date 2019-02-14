@@ -1,4 +1,4 @@
-package calculadoraBasica;
+package org.calculadora;
 
 public class Extraccion {
 

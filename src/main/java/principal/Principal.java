@@ -1,9 +1,9 @@
 package principal;
 
-import calculadoraBasica.Adicion;
-import calculadoraBasica.Division;
-import calculadoraBasica.Extraccion;
-import calculadoraBasica.Multiplicacion;
+import org.calculadora.Adicion;
+import org.calculadora.Division;
+import org.calculadora.Extraccion;
+import org.calculadora.Multiplicacion;
 
 public class Principal {
 

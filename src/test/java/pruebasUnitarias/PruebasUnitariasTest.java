@@ -1,18 +1,18 @@
 package pruebasUnitarias;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
+import org.calculadora.Adicion;
+import org.calculadora.Division;
+import org.calculadora.Extraccion;
+import org.calculadora.Multiplicacion;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
-
-import calculadoraBasica.Adicion;
-import calculadoraBasica.Division;
-import calculadoraBasica.Extraccion;
-import calculadoraBasica.Multiplicacion;
 
 public class PruebasUnitariasTest {
 	
@@ -36,7 +36,7 @@ public class PruebasUnitariasTest {
 	public void adicionTest() {
 		System.out.println("prueba adicion");
 	   Adicion adicion = new Adicion();
-	   assertEquals(3,adicion.suma(1, 2));
+	   assertNotEquals(3,adicion.suma(1, 2));
 	}
 	
 	
