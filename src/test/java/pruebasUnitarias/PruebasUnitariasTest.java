@@ -36,7 +36,7 @@ public class PruebasUnitariasTest {
 	public void adicionTest() {
 		System.out.println("prueba adicion");
 	   Adicion adicion = new Adicion();
-	   assertNotEquals(3,adicion.suma(1, 2));
+	   assertEquals(3,adicion.suma(1, 2));
 	}
 	
 	
