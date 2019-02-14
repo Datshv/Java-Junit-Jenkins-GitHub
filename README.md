@@ -1,4 +1,4 @@
-<h1><strong>Proyecto basico Java + Junit + Maven + Jenkin y Notificacion Email + GitHub </strong></h1>
+<h1><strong>Proyecto basico Java + Junit + Maven + Jenkin y Notificacion Email + GitHub</strong></h1>
 <p>&nbsp;</p>
 
 <p>En este proyecto se encuentran las siguiente clases:</p>
